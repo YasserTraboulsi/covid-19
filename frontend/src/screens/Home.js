@@ -108,14 +108,14 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {Alldata?.map((cases, index) =>
+            {Alldata?.map((row, index) =>
               <tr key={index} className='hover:bg-cyan-100 bg-cyan-300 cursor-pointer duration-300'>
-                <td className='py-3 px-6 text-center text-slate-900'>{cases.cases}</td>
-                <td className='py-3 px-6 text-center text-slate-900'>{cases.todayCases}</td>
-                <td className='py-3 px-6 text-center text-slate-900'>{cases.deaths}</td>
-                <td className='py-3 px-6 text-center text-slate-900'>{cases.todayDeaths}</td>
-                <td className='py-3 px-6 text-center text-slate-900'>{cases.recovered}</td>
-                <td className='py-3 px-6 text-center text-slate-900'>{cases.todayRecovered}</td>
+                <td className='py-3 px-6 text-center text-slate-900'>{row.cases}</td>
+                <td className='py-3 px-6 text-center text-slate-900'>{row.todayCases}</td>
+                <td className='py-3 px-6 text-center text-slate-900'>{row.deaths}</td>
+                <td className='py-3 px-6 text-center text-slate-900'>{row.todayDeaths}</td>
+                <td className='py-3 px-6 text-center text-slate-900'>{row.recovered}</td>
+                <td className='py-3 px-6 text-center text-slate-900'>{row.todayRecovered}</td>
               </tr>
             )}
           </tbody>
