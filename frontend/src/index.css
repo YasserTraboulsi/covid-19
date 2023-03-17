@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* html{
+  font-size: 62.5%; 
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #1877f2;
+  --secondary-color: #0b4086;
+  --button-primary: #f0c040;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+} 
+*/
+
+.loading{
+  display: block !important;
+}
+.success{
+  color: #20a020;
+}
+.danger{
+  color: #a02020;
+}
+.alert{
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+  margin-bottom: 10px;
+}
+.alert-info{
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger{
+  color: #a02020;
+  background-color: #ffe0e0e0;
+}
+.alert-success{
+  color: #20a020;
+  background-color: #eeffe0;
+} 
+
