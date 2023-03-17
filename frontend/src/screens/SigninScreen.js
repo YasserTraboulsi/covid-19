@@ -51,8 +51,6 @@ export default function SigninScreen() {
                         />
                     </div>
                     <div className='flex justify-between text-slate-300 py-2'>
-                        {/* <p className='flex items-center'><input className='mr-2' type="checkbox" /> Remember Me</p>
-                    <p>Forgot Password</p> */}
                         Don't have an account? {' '}
                         <Link className='text-gray-100 hover:font-semibold' to={`/register`}>Create</Link>
                     </div>

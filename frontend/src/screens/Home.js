@@ -32,9 +32,7 @@ export default function Home() {
   selected.length > 0 && (Alldata = CovData?.filter(cov => cov.country === selected))
   console.log(Alldata)
 
-  // if(document.getElementsByClassName("w-72 font-medium h-auto")){
-  // console.log(document.getElementsByClassName("w-72 font-medium h-auto")?.innerHTML)
-  // }
+
   return (
     <div>
       <Nav />

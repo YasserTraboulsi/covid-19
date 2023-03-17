@@ -37,7 +37,7 @@ userRouter.post('/register', expressAsyncHandler(async (req, res) => {
         res.status(401).send({ message: "Password should be contain one: upper case, lower case, new number, no white space, one special char, minimum 8 chars" })
     } else {
         const user = new User({
-            name: req.body.name, email: req.body.email, password: bcrypt.hashSync(req.body.password, 8), city: req.body.city,
+            name: req.body.name, email: req.body.email, password: bcrypt.hashSync(req.body.password, 8),
         });
         const createdUser = await user.save();
 
